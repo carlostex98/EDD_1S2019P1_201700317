@@ -1,0 +1,13 @@
+digraph G {
+node [shape = square];
+rankdir=LR;
+s583 [label="(58 , 3)"]; 
+s584 [label="(58 , 4)"]; 
+s585 [label="(58 , 5)"]; 
+s583 -> s584;
+s584 -> s583;
+s584 -> s585;
+s585 -> s584;
+s583 ->NULL_i ;
+s585 -> NULL_f ;
+}

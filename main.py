@@ -725,4 +725,3 @@ def main(stdscr):
 
 
 curses.wrapper(main)
-

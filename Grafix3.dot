@@ -1,0 +1,10 @@
+digraph G {
+ rankdir=LR
+ node [shape = square];
+smichael [label="(michael , 10)"]; 
+sjuan [label="(juan , 0)"]; 
+spedro [label="(pedro , 0)"]; 
+smichael -> sjuan; 
+sjuan -> spedro; 
+spedro -> NULL; 
+}

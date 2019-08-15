@@ -1,0 +1,13 @@
+digraph G {
+node [shape = square];
+rankdir=LR;
+smichael [label="michael"]; 
+sjuan [label="juan"]; 
+spedro [label="pedro"]; 
+smichael->sjuan;
+smichael->spedro;
+sjuan->spedro;
+sjuan->smichael;
+spedro->smichael;
+spedro->sjuan;
+}

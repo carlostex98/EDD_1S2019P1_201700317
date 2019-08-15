@@ -1,0 +1,9 @@
+digraph G {
+ node [shape=plaintext]
+some_node [ 
+ label=< 
+ <table border="0" cellborder="1" cellspacing="0"> 
+ <tr><td> </td></tr> 
+ <tr><td> (22 , 19) Comida (*) </td></tr> 
+</table>> 
+ ];}
